@@ -10,4 +10,9 @@ export const QuoteButtonContainer = styled.button`
     font-size: 2rem;
     border: 2px solid black;
     cursor: pointer;
+    transition: background-size .8s ease;
+
+    :hover {
+        background-size: 400px;
+    }
 `;
