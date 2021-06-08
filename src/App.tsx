@@ -3,7 +3,10 @@ import QuoteButton from "./components/QuoteButton";
 
 function App() {
   function getQuote() {
-      console.log("Calling API...");
+      fetch('https://breaking-bad-quotes.herokuapp.com/v1/quotes')
+        .then(response => response.json())
+        .then(quote => console.log(quote[0]))
+        .catch(error => console.error(error));
   }
 
   return (
