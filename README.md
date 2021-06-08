@@ -6,7 +6,9 @@ This project is intended to serve as a base for learning some React principles a
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Live Demo: WIP
+Live Demo: https://isaacrf.com/apps/react-quotes
+
+![react-quote-demo](https://user-images.githubusercontent.com/2803925/121173802-8097ab00-c859-11eb-9edb-3c68ee5a03db.gif)
 
 ## Available Scripts
 
